@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+      <section id="header">
+        <a href="#"><img src="logo_photo/logo.png" alt="site_logo"></a>
+         <ul id="navbar">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href= "blog.html">Blog</a></li>
+            <li><a href= "about.html">About</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+            <li><a href="shoping.html"><i class="fa-solid fa-bag-shopping active"></i></a></li>
+            <a href="#"><i class="fa-solid fa-bars bar-btn" ></i></a>
+
+           </ul>
+           <div id="mobile">
+            <i class="fa-solid fa-bars" id="bar"></i>
+          </div>
+      </section>
+
+      <section  id="about-header">
+         <h2 style="font-size: 2.5rem;margin-bottom: 10px; color: white;">#Let's_talk</h2>
+        <p style="color: cyan;font-size: 1.2rem;">LEAVE THE MESSAGE We love here for you</p>
+    </section>
+      
+   <section id="shoping-box">
+       <table id="table">
+        <thead>
+            <tr>
+                <th>REMOVE</th>
+                <th>IMAGE</th>
+                <th>PRODUCT</th>
+                <th>PRICE</th>
+                <th>QUANTITY</th>
+                <th>SUBTOTAL</th>
+            </tr>
+        </thead>
+        <tbody >
+            <tr>
+                <td><a href="#"><i class="fas fa-star"></i></a></td>
+                <td><img src="cloth_photo/f1.jpg"></td>
+                <td>Cartoon Astronout T-shirt</td>
+                <td>$140.00</td>
+                <td><input type="number" value="0" min="0" width="80%" style="text-align: center;" onchange="update(this,0)"></td>
+                <td>$00.00</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fas fa-star"></i></a></td>
+                <td><img src="cloth_photo/f2.jpg"></td>
+                <td>Cartoon Astronout T-shirt</td>
+                <td>$160.00</td>
+                <td><input type="number" value="0" min="0"width="80%" style="text-align: center;"onchange="update(this,1)"></td>
+                <td>$00.00</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fas fa-star"></i></a></td>
+                <td><img src="cloth_photo/f3.jpg"></td>
+                <td>Cartoon Astronout T-shirt</td>
+                <td>$180.00</td>
+                <td><input type="number" value="0" min="0" width="80%" style="text-align: center;"onchange="update(this,2)"></td>
+                <td>$00.00</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fas fa-star"></i></a></td>
+                <td><img src="cloth_photo/f4.jpg"></td>
+                <td>Cartoon Astronout T-shirt</td>
+                <td>$240.00</td>
+                <td><input type="number" value="0" min="0" width="80%" style="text-align: center;"onchange="update(this,3)"></td>
+                <td>$00.00</td>
+            </tr>
+        </tbody>
+       </table>
+   </section>
+
+   
+   <section id="payment">
+    <div  id="cart">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="payment-btn">Apply</button>
+        </div>
+    </div>
+    <div id="total">
+        <h4>Cart Totals</h4>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td id="cart-total">$00.00</td>
+            </tr>
+            <tr>
+                <td>Shiping</td>
+                <td id="shipping-cost">$00.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td id="totals">$00.00</td>
+            </tr>
+        </table>
+    </div>
+   </section>
+    
+     
+
+
+   
+
+      <section id="foot">
+        <div class="foot3">
+           <img src="logo_photo/logo.png">
+           <div class="foot_box">
+          <h4>Contact</h4>
+          <h4>Adress:<span >Near SKIT College</span></h4>
+          
+          <h4>Phone: <span >+91 9608428137</span></h4>
+           
+          <h4>Email:<span>sahilkr9608@gmail.com</span></h4>
+            
+          </div>
+          <h4 style="margin-top: 5px;">Follow Us</h4>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+         </div>
+
+        <div class="foot3 foots">
+          <h4>About</h4>
+          <p>About us</p>
+          <p>Delivery Information</p>
+          <p>Privacy policy</p>
+          <p>Terms & Condition</p>
+          <p>Contact us</p>
+        </div>
+
+        <div class="foot3 foots">
+          <h4>My Account</h4>
+          <p>Sign in</p>
+          <p>View Cart</p>
+          <p>My wallet</p>
+          <p>Track My Order</p>
+          <p>Help</p>
+        </div>
+
+        <div class="foot3 foots">
+          <h4>Install App</h4>
+          <p>From App store or Play</p>
+          <div class="img">
+            <img src="payment_photo/app.jpg">
+            <img src="payment_photo/play.jpg">
+          </div>
+          <p>Secured Payment Gateway</p>
+          <img src="payment_photo/pay.png">
+        </div>
+
+        <div style="width:100%;text-align: center;margin-bottom: 0px;">
+          <h6 style="color: black; font-size: 1.2rem;background-color: cyan;padding: 10px 0px;"><span>&copy;</span>2024 Tech Ecommerce Website</h6>
+        </div>
+      </section>
+      
+      
+</body>
+<script src="script.js"></script>
+<script>
+    // JavaScript code
+    let total=document.getElementById('total');
+    function update(input,rowIndex) {
+        // Get the parent row
+        // var row = input.parentNode.parentNode;
+        var row = document.querySelectorAll('#table tbody tr')[rowIndex];
+        // Get the price per item
+        var price = parseFloat(row.cells[3].textContent.replace('$', ''));
+        // Get the quantity
+        var quantity = parseInt(input.value);
+        // Calculate subtotal
+        var subtotal = price * quantity;
+        // Update the subtotal cell
+        row.cells[5].textContent = '$' + subtotal.toFixed(2);
+        var subtotals = document.querySelectorAll('#table tbody tr td:nth-child(6)');
+        var cartTotal = 0;
+        subtotals.forEach(function(subtotalCell) {
+            cartTotal += parseFloat(subtotalCell.textContent.replace('$',''));
+        });
+        document.getElementById('cart-total').textContent = '$' + cartTotal.toFixed(2);
+        var shippingCost = cartTotal < 500 ? 40.00 : 0.00;
+            document.getElementById('shipping-cost').textContent = shippingCost === 0.00 ? 'Free' : '$' + shippingCost.toFixed(2);
+           
+            var totalCost = shippingCost === 0.00 ? cartTotal : cartTotal + shippingCost;
+            document.getElementById('totals').textContent = '$' + totalCost.toFixed(2);
+    }
+        
+</script>
+</script>
+</html>
